@@ -3934,34 +3934,6 @@ myLocalAgent,0,14,Passed,9,4f9e580347b2e259fe030a775771359cdc984346,1,2015-07-07
 </tr>
 </tbody></table>
 
-<h3 id="the-filter-object">The Filter object</h3>
-
-<pre class="highlight json"><code><span class="p">{</span><span class="w">
-  </span><span class="nt">"filter"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nt">"ignore"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-      </span><span class="s2">"**/*.*"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"**/*.html"</span><span class="w">
-    </span><span class="p">]</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-
-<p class='attributes-table-follows'></p>
-
-<table><thead>
-<tr>
-<th>Attribute</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td><code class="prettyprint">ignore</code></td>
-<td>String</td>
-<td>The pattern for the files to be ignored.</td>
-</tr>
-</tbody></table>
-
 <h3 id="the-plugin-material-attributes">The plugin material attributes</h3>
 
 <pre class="highlight json"><code><span class="p">{</span><span class="w">
@@ -3995,6 +3967,34 @@ myLocalAgent,0,14,Passed,9,4f9e580347b2e259fe030a775771359cdc984346,1,2015-07-07
 <td><code class="prettyprint">filter</code></td>
 <td>Object</td>
 <td>The <a href="#the-filter-object">filter</a> specifies files in changesets that should not trigger a pipeline automatically.</td>
+</tr>
+</tbody></table>
+
+<h3 id="the-filter-object">The Filter object</h3>
+
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"filter"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"ignore"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"**/*.*"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"**/*.html"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p class='attributes-table-follows'></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code class="prettyprint">ignore</code></td>
+<td>String</td>
+<td>The pattern for the files to be ignored.</td>
 </tr>
 </tbody></table>
 
